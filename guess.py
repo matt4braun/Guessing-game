@@ -1,6 +1,6 @@
 import random
 number = 101
-goal = random.randint(1,100)
+goal = random.randint(1,100)        #generate random number
 while number != goal:
     number = int(input("guess a number"))
     if number>goal:
